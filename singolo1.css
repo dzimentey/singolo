@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+}
+ /*HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    /*header*/
+
+html{
+   font-size: 10px;
+}
+body{
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5rem;
+    letter-spacing: -0.5px;
+}
+#starlet{
+    color: #f06c64;
+}
+
+.header{
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 32px;
+    padding-bottom: 33px;
+    
+}
+.header a{
+    color: #ffffff;
+}
+
+.header-split{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.navigation{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.navigation a{
+    letter-spacing: -0.25px;
+}
+.point-after{
+    color: #494e62;
+    padding-right: 13.5px;
+    padding-left: 13.5px;
+}
+.header .navigation a:hover{
+    color: #f06c64;
+    cursor: pointer;
+}
+.navigation .colored{
+    color: #f06c64;
+}
+
+    /*slider*/
+.slider{
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+    padding-top: 53px;
+    padding-bottom: 58px;
+}
+.slider-inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone-vertical{
+    padding-right: 16px;
+}
+.phone-horizontal{
+    padding-left: 4px;
+    
+}
+.arrow-back{
+    padding-left: 2px;
+}
+
+.arrow-back:hover{
+    transform: scale(1.2); 
+}
+
+.arrow-forward:hover{
+    transform: scale(1.2);
+}
+
+    /* services-section*/
+.promo-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #666d89;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    margin-top: 7px;
+    margin-bottom: 28px;
+
+}
+.promo-content p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #767e9e;
+    line-height: 30px;
+}
+
+.promo-content p::first-line{
+
+    letter-spacing: 0.15px;
+}
+.promo-content{
+    margin-bottom: 16px;
+}
+
+.our-services-section {
+    padding-top: 62px;
+    padding-bottom: 60px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+  }
+
+    /*services list section*/
+  
+.our-services-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+.service-unit{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 300px; 
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 18px;
+    color: #666d89;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.unit-text p{
+    font-size: 1.2rem;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: justify;
+}
+.unit-icon{
+    /*keep order: sizes and border first, then positioning */
+    width: 56px;
+    height: 56px;
+    border: 1.5px solid #666d89;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.unit-text{
+    width:220px;
+}

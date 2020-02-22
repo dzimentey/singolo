@@ -1,2 +1,2 @@
 # singolo
-https://dzimentey.github.io/singolo
+https://dzimentey.github.io/singolo/

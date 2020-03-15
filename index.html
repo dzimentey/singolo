@@ -12,19 +12,19 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="to-top">
         <div class="wrapper">
             <div class="header-split">
-                <h1><a href="#" class="logo">SINGOLO<span id="starlet">*</span></a></h1>
+                <h1><a href="index.html" class="logo">SINGOLO<span id="starlet">*</span></a></h1>
 
                 <nav class="header__navigation">
-                    <ul class="navigation">
-                        <li><a class="colored" href="#">Home<span class="point-after">·</span></a></li>
+                    <ul class="navigation" id="menu">
+                        <li><a class="colored scroll-to" href="#to-top">Home<span class="point-after">·</span></a></li>
                         <!--to tape "·" use: alt+0183 -->
-                        <li><a href="#">SERVICES<span class="point-after">·</span></a></li>
-                        <li><a href="#">PORTFOLIO <span class="point-after">·</span></a></li>
-                        <li><a href="#">ABOUT<span class="point-after">·</span></a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#to-services" class="scroll-to">SERVICES<span class="point-after">·</span></a></li>
+                        <li><a href="#to-portfolio" class="scroll-to">PORTFOLIO <span class="point-after">·</span></a></li>
+                        <li><a href="#to-about" class="scroll-to">ABOUT<span class="point-after">·</span></a></li>
+                        <li><a href="#to-contact" class="scroll-to">CONTACT</a></li>
 
                     </ul>
                 </nav>
@@ -32,6 +32,9 @@
         </div>
 
     </header>
+	
+	<script src="script.js"></script>
+	
     <main>
         <section class="slider">
             <div class="wrapper">
@@ -44,7 +47,7 @@
             </div>
 
         </section>
-        <section class="our-services-section">
+        <section class="our-services-section" id="to-services">
             <div class="wrapper">
                 <div class="promo-content">
                     <h2>Our Services</h2>
@@ -138,7 +141,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="to-portfolio">
             <div class="wrapper">
                 <div class="text-above">
                     <h2>Portfolio</h2>
@@ -169,7 +172,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-us-section">
+        <section class="about-us-section" id="to-about">
             <div class="wrapper">
                 <div class="about-us-text">
                     <h2>About Us</h2>
@@ -230,7 +233,7 @@
                     nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                     tortor mauris condimentum nibh.
                 </p>
-                <div class="contacts-block">
+                <div class="contacts-block" id="to-contact">
                     <form class="form">
                         <input type="text" placeholder="Name (Required)" name="name" required>
                         <input type="email" placeholder="Email (Required)" name="email" required>
